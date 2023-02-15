@@ -1,0 +1,39 @@
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  box-sizing: border-box;
+}
+.card {
+  border: 1px solid gray;
+  width: 330px;
+  height: 480px;
+  padding: 18px;
+  border-radius: 8px;
+  text-align: center;
+}
+.img img {
+  width: 200px;
+  height: 250px;
+}
+.card:hover {
+  box-shadow: 0 0 10px gray;
+}
+.card img,
+h3,
+p {
+  margin-bottom: 8px;
+}
+.details button {
+  width: 100px;
+  background-color: bisque;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid gray;
+  padding: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}

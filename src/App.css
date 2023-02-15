@@ -1,0 +1,12 @@
+.warning {
+  width: 210px;
+  height: 40px;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  background-color: rgb(209, 61, 8);
+  color: #fff;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 4px;
+}

@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+article {
+  width: 80%;
+  margin: auto;
+}
+.cardBox .img img {
+  width: 40px;
+  height: 50px;
+}
+.img {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+.cardBox .img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.cardBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 9px;
+}
+.cardBox div:nth-child(2) {
+  display: flex;
+  margin-right: 5px;
+}
+.cardBox div:nth-child(3) {
+  display: flex;
+  gap: 5px;
+}
+.cardBox div:nth-child(2) button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.cardBox div:nth-child(2) button:nth-child(2) {
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.cardBox div:nth-child(3) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(5, 134, 189);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cardBox div:nth-child(3) button:hover {
+  background-color: rgb(2, 76, 84);
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+}
+.total span:nth-child(1) {
+  font-size: 1.7rem;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.total span:nth-child(2) {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(74, 72, 72);
+}
